@@ -1,0 +1,82 @@
+body {
+  background-image: url('../imagenes/fondo.png');
+  overflow-x: hidden;
+}
+
+canvas {
+  margin: auto;
+  display: flex;
+  margin-top: calc(50vh - 286px);
+}
+
+.boton-recargar {
+  margin: auto;
+  display: flex;
+  background: none;
+  border: none;
+  color: white;
+  font-family: monospace;
+  visibility: hidden;
+}
+
+#bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0 ,0 , 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+#modal-principal {
+  width: 500px;
+  height: 300px;
+  background-color: #4FC49C; 
+  text-align: center;
+  padding: 20px;
+  visibility: hidden; 
+}
+
+#modal-principal img {
+  width: 120px;
+}
+
+#modal-principal button {
+  background-color: #541005;
+  color: white;
+  padding: 18px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  width: 50%;
+  display: block; 
+  margin: 15px auto;
+}
+
+#modal-niveles {
+  position: absolute;
+  visibility: hidden;
+  background-color: #4FC49C; 
+  text-align: center;
+  padding: 20px;
+  width: 350px;
+  height: 150px;
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.boton {
+  background-color: #541005;
+  color: white;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  width: 30%;
+  display: inline; 
+  margin: 10px auto;
+  cursor: default;
+  text-decoration: none;
+}
